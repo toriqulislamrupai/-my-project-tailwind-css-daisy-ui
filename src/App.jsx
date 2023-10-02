@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './Components/Navbar/Navbar'
+// import Daisyui from './Components/Daisyui/Daisyui'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+    {/* <Daisyui></Daisyui> */}
+    <Navbar></Navbar>
       <h1>Vite + React</h1>
       
     </>
