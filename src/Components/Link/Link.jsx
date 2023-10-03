@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Link = ({route}) => {
     return (
         <div>
-            <li className="mr-10 hover:bg-cyan-600">
+            <li className="mr-10 hover:bg-cyan-700">
                 <a href={route.path}>{route.name}</a>
             </li>
 
