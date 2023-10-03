@@ -1,6 +1,6 @@
 
 
-const Daisyui = () => {
+const DaisyNav = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
@@ -47,4 +47,4 @@ const Daisyui = () => {
     );
 };
 
-export default Daisyui;
+export default DaisyNav;
